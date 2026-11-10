@@ -3,6 +3,8 @@
 **用途**
 - 對方問「真的 MBTI 是什麼」「網路測驗準不準」時，用這份資料回答
 - 類型確認時需要引用理論，也查這份
+- 對方問「這個數字哪裡來的」，查 `sources.md`，裡面有每個主張的出處和頁碼
+- 對方想看榮格怎麼說，查 `jung-1923/` 的原文，引用時附上頁碼
 
 **講解方式**：挑對方關心的部分講，用表格比用長段落好。資料整理於 2026-10，價格和版本可能有變動，請提醒對方以官方網站為準。
 
@@ -26,15 +28,15 @@
 | 兩種態度 | 外傾：心理能量流向外在客體；內傾：流向主體內在 |
 | 四種功能 | 思考、情感屬於**理性（判斷）功能**；感覺、直覺屬於**非理性（知覺）功能** |
 | 八種類型 | 2 種態度 × 4 種功能，例如外傾思考型、內傾直覺型 |
-| 主導功能 | 只有一個功能擁有「絕對主權」 |
-| 輔助功能 | 一定來自另一條軸。思考主導的人，輔助只能是感覺或直覺，不會是情感（原典第十章第 11 節） |
-| 劣勢功能 | 主導功能的對立面，處在無意識中，發展得很原始 |
+| 主導功能 | 只有一個功能擁有「絕對主權」（p. 514） |
+| 輔助功能 | 一定來自另一條軸。思考主導的人，輔助只能是感覺或直覺，不會是情感（第十章第 11 節，p. 515） |
+| 劣勢功能 | 主導功能的對立面，處在無意識中，發展得很原始（第十一章定義 30，p. 563） |
 
-- 榮格說，純粹的類型只是誇大的「合成肖像」，真實的人都是混合的
+- 榮格說，純粹的類型只是誇大的「合成肖像」，真實的人都是混合的（p. 513）
 - 榮格**沒有提出**：J/P 這條軸、16 型、問卷
 - 榮格沒有明確規定輔助功能是內傾還是外傾。後人對這一點的詮釋有分歧
 
-**原典取得**：1923 年 Baynes 的英譯本在美國和台灣都已進入公有領域，archive.org 上有掃描檔，識別碼是 `psychologicaltyp00jung_1`。
+**原典**：1923 年 Baynes 英譯本在美國和台灣都已是公有領域。第十章〈類型總述〉和第十一章〈定義〉的全文收在 `jung-1923/`，附原書頁碼。完整的掃描檔在 archive.org，識別碼是 `psychologicaltyp00jung_1`。
 
 ### 第二層：Briggs 與 Myers 的 MBTI
 - **版本沿革**：1943 Form A → 1962 Form F → 1978 Form G → 1998 Form M → 2001 Form Q → 2018 MBTI Global
@@ -132,20 +134,14 @@
 | 想要正版的類型 | MBTIonline 或認證施測師，加上最適類型確認 |
 | 有某條軸卡在中間 | 看 Step II 的面向分數，或機率指數 |
 | 想要預測力最好的人格描述 | Big Five 或 HEXACO（IPIP 題庫是公有領域） |
-| 想忠於榮格的原意 | 讀原典第十章〈General Description of the Types〉。量表可以用 SL-TDI，它用 Likert 量尺分別測 8 個功能態度，不預設兩極 |
+| 想忠於榮格的原意 | 讀原典第十章〈General Description of the Types〉，全文在 `jung-1923/`。量表可以用 SL-TDI，它用 Likert 量尺分別測 8 個功能態度，不預設兩極 |
 
 ---
 
 ## 6. 來源
-- [MBTI Global 手冊增補（美國版）](https://asia.themyersbriggs.com/wp-content/uploads/23.MBTIGlobalManualSuppUS.pdf)
-- [MBTI Global 手冊增補（繁體中文版）](https://asia.themyersbriggs.com/wp-content/uploads/6.MBTIGlobalManualSuppCNT.pdf)
-- [MBTI Global 介紹簡報](https://www.psychometrics.com/wp-content/uploads/2022/01/Webinar-Slides-Introduction-to-the-New-MBTI-Global-and-Complete.pdf)
-- [Myers & Briggs Foundation：最適類型](https://myersbriggs.org/unique-features-of-myers-briggs/best-fit-type)
-- [Myers & Briggs Foundation：倫理守則](https://www.myersbriggs.org/using-type-as-a-professional/mbti-code-of-ethics/)
-- [16Personalities 自述](https://www.16personalities.com/for-ai)
-- [OEJTS 開發報告](https://openpsychometrics.org/tests/OJTS/development/)
-- [Pittenger 1993](http://web.archive.org/web/2015id_/http://www.indiana.edu/~jobtalk/Articles/develop/mbti.pdf)
-- [Randall 等 2017](https://www.gwern.net/doc/psychology/personality/2017-randall.pdf)
-- [Arnau 等 2003](https://aquila.usm.edu/fac_pubs/4501)
-- [Lee & Kim 2024（SL-TDI）](https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1249185)
-- [榮格《心理類型》1923 英譯（archive.org）](https://archive.org/details/psychologicaltyp00jung_1)
+
+每個數字和說法的出處、頁碼、備份連結，都整理在 `sources.md`。主要來源：
+- The Myers-Briggs Company 的官方技術文件：Global 美國版與繁中版增補手冊、Global 介紹簡報、Form M 增補手冊
+- 期刊論文：Pittenger 1993、Randall 等 2017、McCrae & Costa 1989、Arnau 等 2003、Lee & Kim 2024
+- Myers & Briggs Foundation 的「最適類型」與倫理守則網頁
+- 榮格《心理類型》1923 英譯本，第十、十一章收在 `jung-1923/`

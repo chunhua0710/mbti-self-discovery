@@ -58,7 +58,11 @@ mbti-self-discovery/
     ├── type-interview.md        # OEJTS 判讀、16 型功能表、題庫、劣勢功能、紀錄範本
     ├── life-dimensions.md       # 生活維度的偏好與地雷
     ├── life-direction.md        # 人生方向五步驟
-    └── emotional-needs.md       # 情感需求訪談
+    ├── emotional-needs.md       # 情感需求訪談
+    ├── sources.md               # 出處對照表：每個數字的出處、頁碼、備份連結
+    └── jung-1923/               # 榮格《心理類型》1923 英譯本原文（公有領域）
+        ├── ch10-general-description-of-the-types.md   # 第十章 類型總述，p. 412–517
+        └── ch11-definitions.md                        # 第十一章 名詞定義，p. 518–617
 ```
 
 ## 隱私
@@ -73,9 +77,22 @@ mbti-self-discovery/
 - 這是自我了解的工具，**不是心理診斷**。遇到困擾時，請尋求專業協助
 - 不適用於評估或篩選別人，例如招募、替同事判定類型
 
-## 資料來源與聲明
+## 資料來源與查證
 
-- 理論和數據的出處，列在 [`references/theory.md`](mbti-self-discovery/references/theory.md) 的「來源」一節。其中包括 The Myers-Briggs Company 的公開技術文件、Pittenger (1993)、Randall et al. (2017)、Arnau et al. (2003)，以及榮格《心理類型》1923 年英譯本
+**主要數字和說法都附出處。** [`references/sources.md`](mbti-self-discovery/references/sources.md) 列出每一個主張的出處和頁碼，例如「15 週重測，四字母全部相同只有 51%」→ 官方 Global 美國版增補手冊，PDF 第 8 頁，Table 12。每個連結也盡量附上 Wayback Machine 的備份，原網址失效時可以用。
+
+**收錄了哪些原文**
+| 資料 | 收錄方式 | 原因 |
+|---|---|---|
+| 榮格《心理類型》1923 Baynes 英譯本，第十章〈類型總述〉、第十一章〈定義〉 | 全文收在 [`references/jung-1923/`](mbti-self-discovery/references/jung-1923/)，附原書頁碼 | 公有領域，見下方說明 |
+| The Myers-Briggs Company 的官方技術文件 | 只附連結和頁碼 | 有版權。官方提供下載，不代表允許轉載 |
+| 期刊論文（Pittenger、Randall、McCrae & Costa、Arnau 等） | 只附連結、DOI 和頁碼 | 有版權 |
+| Lee & Kim (2024) | 只附 DOI | CC BY 開放取用，從期刊網站就能直接讀 |
+
+**榮格原文的權利說明**：Baynes 英譯本 1923 年出版，在美國已是公有領域。在台灣，作者（1961 年過世）和譯者（1943 年過世）都已超過著作財產權的保護期間。歐盟等「作者過世後 70 年」的地區，保護期要到 2031 年底才結束，請依所在地的法律使用。原文由 archive.org 的掃描檔 OCR 轉出，可能有錯字，逐字引用前請用頁碼對照[掃描檔](https://archive.org/details/psychologicaltyp00jung_1)。
+
+## 聲明
+
 - 這個專案沒有收錄任何官方 MBTI 題目
 - OEJTS 由 [Open-Source Psychometrics Project](https://openpsychometrics.org/) 提供，題目以 CC BY-NC-SA 4.0 授權。本專案只提供連結，沒有收錄它的題目
 - MBTI®、Myers-Briggs® 是 The Myers-Briggs Company 的商標。本專案與該公司沒有任何關聯
@@ -83,3 +100,5 @@ mbti-self-discovery/
 ## 授權
 
 本專案採用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) 授權，全文見 [LICENSE](LICENSE)。歡迎自由使用、修改和分享，但需標註出處，且**不得用於商業用途**。
+
+例外：`references/jung-1923/` 裡的榮格原文是公有領域，不受本專案授權限制。
